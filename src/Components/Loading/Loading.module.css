@@ -1,0 +1,31 @@
+
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  text-align: center;
+}
+
+.loading-icon {
+  font-size: 3rem;
+  color: #10B981; 
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #4B5563; 
+}
