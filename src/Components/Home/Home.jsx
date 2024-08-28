@@ -2,7 +2,7 @@ import axios from 'axios'
 import style from './Home.module.css'
 
 import React, { useEffect, useState } from 'react'
-import RecentProduct from '../RecentProduct/RecentProduct'
+/*import RecentProduct from '../RecentProduct/RecentProduct'*/
 import Loading from '../Loading/Loading'
 import MainSlider from '../MainSlider/MainSlider'
 import CategorySlider from '../CategorySlider/CategorySlider'
