@@ -9,7 +9,7 @@
 #root{
   display: flex;
   flex-direction: column;
-  background-color: red;
+  /*background-color: red;*/
   min-height: 100vh;
 }
 
